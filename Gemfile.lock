@@ -1,9 +1,19 @@
+
+# blah
+
 GIT
   remote: https://github.com/cchandler/certificate_authority.git
   revision: 58161e4552cc1aeca846da3e25ed66721354ee11
   specs:
     certificate_authority (0.2.0)
       activemodel (>= 3.0.6)
+
+PATH
+  remote: config/customization/gems/reserve_usernames
+  specs:
+    reserve_usernames (0.0.1)
+      activeresource (~> 3.2.18)
+      rails (~> 3.2.18)
 
 PATH
   remote: engines/billing
@@ -272,6 +282,7 @@ DEPENDENCIES
   rails-i18n
   rails_warden
   rdiscount
+  reserve_usernames!
   ruby-srp (~> 0.2.1)
   sass-rails (~> 3.2.5)
   simple_form
